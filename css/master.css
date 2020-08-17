@@ -1,0 +1,39 @@
+body { font-family: 'Computer Modern Sans'; font-size: 17px; background-image: url(/img/background.png); background-attachment: fixed; background-position: center; background-size: contain; }
+
+.content { position: absolute; left: 60%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 50vw; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; background-color: #ffffffea; padding: 40px; -webkit-box-shadow: 5px 2px 10px #bdbdbd; box-shadow: 5px 2px 10px #bdbdbd; }
+
+.content > p { text-indent: 20px; }
+
+.content .title { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-line-pack: center; align-content: center; }
+
+.content .title div { font-size: 34px; font-weight: bold; margin: 0px 10px; }
+
+.content .title div.number { height: 34px; min-width: 34px; text-align: center; border: solid 2px black; }
+
+.content .title div.black { background-color: black; color: white; }
+
+.content code { font-size: 15.3px; margin: 10px; }
+
+.content .fig { margin: 40px; margin-bottom: 0; }
+
+.content .fig svg { position: relative; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+
+.content .caption { font-size: 15.3px; margin: 0 60px; }
+
+.navigation { width: 25vw; position: fixed; left: 20px; background-color: #ffffffea; }
+
+.navigation .title { width: 90%; margin: 15px; border-bottom: solid 2px black; }
+
+.navigation .title h1 { font-size: 34px; margin: 0; }
+
+.navigation .title h5 { font-size: 15.3px; font-weight: normal; font-style: oblique; margin-top: 0; margin-left: 20px; }
+
+.navigation ol { font-weight: 500; }
+
+.navigation ol li { margin: 5px 0; padding: 5px; }
+
+.navigation ol li a { color: black; text-decoration: none; }
+
+.navigation ol li a.not-posted { text-decoration: line-through; }
+
+.navigation .note { font-size: 15.3px; color: #bdbdbd; margin-top: 20px; margin-left: 15px; }
