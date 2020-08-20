@@ -12,7 +12,7 @@ body { font-family: 'Computer Modern Sans'; font-size: 17px; background-image: u
 
 .content .title div.black { background-color: black; color: white; }
 
-.content code { font-size: 15.3px; margin: 10px; }
+.content code { font-size: 13.6px; margin: 10px; }
 
 .content .fig { margin: 40px; margin-bottom: 0; }
 
@@ -34,6 +34,8 @@ body { font-family: 'Computer Modern Sans'; font-size: 17px; background-image: u
 
 .navigation ol li a { color: black; text-decoration: none; }
 
-.navigation ol li a.not-posted { text-decoration: line-through; }
+.navigation ol li.not-posted { text-decoration: line-through; }
+
+.navigation ol li.actual-page { background-color: #e2e2e2; border-radius: 5px; margin: 20px; font-size: 18.7px; }
 
 .navigation .note { font-size: 15.3px; color: #bdbdbd; margin-top: 20px; margin-left: 15px; }
